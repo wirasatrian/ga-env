@@ -12,7 +12,7 @@ jobs:
       MONGODB_CLUSTER_ADDRESS: abonbali.ufkq8fc.mongodb.net
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
-      PORT: 7070
+      PORT: 8080
     environment: testing
     runs-on: ubuntu-latest
     steps:
